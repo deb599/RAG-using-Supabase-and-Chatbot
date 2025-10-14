@@ -1,10 +1,5 @@
-# RAG-using-Supabase-and-Chatbot
 
-Here’s a **GitHub README post** you can include with that n8n JSON — clean, explanatory, and optimized for visibility (people can copy, import, and use it right away):
-
----
-
-# 🧠 AI Risk RAG Chat Agent (n8n + LangChain + Supabase + OpenAI)
+# 🧠 AI Risk RAG Chat Agent (n8n + Supabase + OpenAI)
 
 This n8n workflow builds a **Retrieval-Augmented Generation (RAG) chat agent** that retrieves insights on **AI risk** from a stored knowledge base.
 It integrates **Google Drive**, **Supabase**, **Postgres**, and **OpenAI** to create a full-stack, self-updating RAG pipeline — all orchestrated visually in n8n.
@@ -18,7 +13,6 @@ It integrates **Google Drive**, **Supabase**, **Postgres**, and **OpenAI** to cr
 * **Vector storage** in Supabase for semantic retrieval
 * **Persistent chat memory** with Postgres
 * **Interactive chat interface** with real-time responses
-* **Modular agent design** (easily extendable with more tools)
 
 ---
 
@@ -77,12 +71,11 @@ It integrates **Google Drive**, **Supabase**, **Postgres**, and **OpenAI** to cr
 
 1. Import the workflow JSON into n8n.
 2. Add your credentials:
-
    * **Google Drive OAuth2**
    * **Supabase API**
    * **OpenAI API Key**
    * **Postgres DB connection**
-3. Run the workflow manually to ingest documents.
+3. Run the workflow manually to ingest documents into the RAG repository.
 4. Trigger the **Chat Node** to interact with your RAG Agent.
 
 ---
@@ -95,13 +88,6 @@ A dynamic AI chat interface that:
 ✅ Generates natural language summaries
 ✅ Can be extended with tools like news scrapers or compliance datasets
 
----
-
-## 🧩 Example Extension Ideas
-
-* Add a **news scraper** node to auto-update the knowledge base weekly.
-* Integrate **Slack** or **Discord bots** for team Q&A.
-* Log queries and responses in Postgres for **AI explainability** tracking.
 
 ---
 
@@ -110,7 +96,7 @@ A dynamic AI chat interface that:
 **Debasmita**
 
 > Building autonomous workflows with n8n + LLMs.
-> [Substack](https://substack.com/@aiwatch101) • [YouTube](https://youtube.com/@ai-watcher-101)
+> [Substack](https://substack.com/@aiwatch101)
 
 ---
 
